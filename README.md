@@ -6,6 +6,12 @@ We have carefully recreated these distinctive letters, and where characters were
 
 The concept behind MaisonScript is to assign each individual letter and number an ordinal, allowing for the creation of new jubilee texts that honor the past while opening up new applications in the modern, digital age.
 
+## Download MaisonScript
+
+You can download the MaisonScript font here:
+
+[Download MaisonScript.ttf](./fonts/MaisonScript.ttf)
+
 ## Usage
 
 1. Download and install the `.ttf` file to use the MaisonScript font in your projects.
