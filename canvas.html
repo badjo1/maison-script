@@ -1,0 +1,58 @@
+<html>
+   <body style="margin: 0; padding: 0;">
+      <script src="javascript/drawImages.js"></script>
+      <!-- Zorg dat het canvas dezelfde breedte/hoogte behoudt als de resolutie voor consistente weergave -->
+      <canvas id="canvas" style="width: 100%; height: auto;" width="3840" height="2160"></canvas>
+
+      <script>
+         // Gebruikersdefinitie
+         const canvas = document.getElementById('canvas');
+
+         // Mapping van letters naar SVG URLs (gebruik hoofdletters)
+         const letterSVGs = {
+            'A': 'images/letter_a.svg',
+            'B': 'images/letter_b.svg',
+            'C': 'images/letter_c.svg',
+            'D': 'images/letter_d.svg',
+            'E': 'images/letter_e.svg',
+            'F': 'images/letter_f.svg',
+            'G': 'images/letter_g.svg',
+            'H': 'images/letter_h.svg',
+            'I': 'images/letter_i.svg',
+            'J': 'images/letter_j.svg',
+            'K': 'images/letter_k.svg',
+            'L': 'images/letter_l.svg',
+            'M': 'images/letter_m.svg',
+            'N': 'images/letter_n.svg',
+            'O': 'images/letter_o.svg',
+            'P': 'images/letter_p.svg',
+            'Q': 'images/letter_q.svg',
+            'R': 'images/letter_r.svg',
+            'S': 'images/letter_s.svg',
+            'T': 'images/letter_t.svg',
+            'U': 'images/letter_u.svg',
+            'V': 'images/letter_v.svg',
+            'W': 'images/letter_w.svg',
+            'X': 'images/letter_x.svg',
+            'Y': 'images/letter_y.svg',
+            'Z': 'images/letter_x.svg',
+            '-': 'images/hyphen-minus.svg',
+            ' ': 'images/hyphen-space.svg',
+            '0': 'images/digit_0.svg',
+            '1': 'images/digit_1.svg',
+            '2': 'images/digit_2.svg',
+            '3': 'images/digit_3.svg',
+            '4': 'images/digit_4.svg',
+            '5': 'images/digit_5.svg',
+            '6': 'images/digit_6.svg',
+            '7': 'images/digit_7.svg',
+            '8': 'images/digit_8.svg',
+            '9': 'images/digit_9.svg',
+            // Voeg andere mappings toe voor extra karakters
+         };
+
+         // Roep de functie aan met de tekst die je wilt tekenen
+         drawTextWithSVGs(canvas, "CETTE PIERRE A ETE POSE LE 22 AVRIL 1921  EN COMMEMORATION DU CINQUIEME JUBILEE SEMI-SECULAIRE DU CETTE MAISOIN COMME ACTE DE PIETE DE LA PART DES ANCIENS ORPHENS", letterSVGs);
+      </script>
+   </body>
+</html>
